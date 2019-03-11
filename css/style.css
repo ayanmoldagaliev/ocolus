@@ -4,7 +4,7 @@
 }
 
 .container {
-  min-width: 1140px;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -58,9 +58,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -89,27 +89,24 @@ body {
       -ms-flex-align: center;
           align-items: center;
   line-height: 30px;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
 
 .header-top__language {
-  width: 25%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-right: 15px;
+  border-right: 1px solid #eeeeee;
 }
 
 .header-top__card {
-  width: 25%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,6 +119,7 @@ body {
           align-items: center;
   padding-left: 15px;
   line-height: 21px;
+  border-left: 1px solid #eeeeee;
 }
 
 .fa-angle-down {
