@@ -1,0 +1,101 @@
+.footer
+ padding: 98px 0
+ background-color: #f9f9f9
+ display: flex
+ justify-content: center
+ align-items: center
+ flex-direction: column
+ &__title
+  color: #293341
+  font-family: Poppins
+  font-size: 35px
+  font-weight: 500
+  line-height: 40px
+ &__form
+  padding-top: 40px
+  display: flex
+  justify-content: center
+  align-items: center
+ &__input
+  width: 500px
+  height: 60px
+  background-color: #fff
+  color: #7b7b7b
+  font-family: Poppins
+  font-size: 16px
+  font-weight: 300
+  line-height: 30px
+  border: none
+  border-right: 1px solid #eeeeee
+  padding-left: 15px
+ &__button
+  width: 200px
+  height: 60px
+  background-color: #fff
+  color: #293341
+  font-family: Poppins
+  font-size: 16px
+  font-weight: 400
+  line-height: 30px
+  border: none
+  text-align: center
+ &__menu
+  padding-top: 65px
+  display: flex
+  justify-content: space-around
+  align-items: center
+  flex-direction: row
+  &__item
+   margin: 0  20px
+   color: #293341
+   font-family: Poppins
+   font-size: 12px
+   font-weight: 500
+   line-height: 30px
+   text-transform: uppercase
+ &__social
+  padding-top: 65px
+  display: flex
+  justify-content: space-around
+  align-items: center
+  flex-direction: row
+  &__item
+   width: 36px
+   height: 36px
+   display: flex
+   justify-content: center
+   align-items: center
+   border-radius: 18px
+   border: 1px solid rbga(#7b7b7b, 0.5)
+   background-color: #fff
+   margin: 0 30px
+ &__small
+  padding-top: 25px
+  color: #7b7b7b
+  font-family: Poppins
+  font-size: 16px
+  font-weight: 300
+  line-height: 30px
+
+@media (max-width: 991px)
+ .footer
+  &__title
+   font-size: 25px
+@media (max-width: 768px)
+ .footer
+  &__social
+   flex-direction: column
+   &__item
+    margin: 5px 0
+  &__menu
+   &__item
+    font-size: 8px
+    margin: 0 5px
+  &__input
+   width: 200px
+   font-size: 14px
+  &__button
+   width: 100px
+   font-size: 14px
+  &__small
+   font-size: 14px

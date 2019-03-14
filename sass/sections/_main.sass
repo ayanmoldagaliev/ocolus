@@ -1,0 +1,40 @@
+.main
+ width: 100%
+ display: flex
+ justify-content: center
+ align-items: center
+ flex-direction: column
+ padding: 100px 0
+ text-align: center
+ &__title
+  color: #293341
+  font-family: "Playfair Display"
+  font-size: 35px
+  font-weight: 400
+  line-height: 40px
+ &__text
+  font-size: 18px
+  font-weight: 300
+  line-height: 30px
+ &__posts
+  padding-top: 96px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  &__item
+   width: 22vw
+   height: 22vw
+   background-color: #e8e8e8
+   margin: 5px
+   &s
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+@media (max-width: 991px)
+ .main
+  &__title
+   font-size: 25px
+  &__text
+   font-size: 12px
