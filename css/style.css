@@ -259,6 +259,7 @@ button {
 .fa-search {
   position: absolute;
   left: -80px;
+  font-size: 12px;
 }
 
 @media (max-width: 991px) {
